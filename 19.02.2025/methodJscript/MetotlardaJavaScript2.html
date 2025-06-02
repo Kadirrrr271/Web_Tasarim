@@ -1,0 +1,56 @@
+<!DOCTYPE html>                  
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1.0">
+	<title>Metotlarda JavaScript</title>
+</head>
+<body>
+	<script>
+		var cumle = "My name is Kadir Çin ";
+
+		var result = cumle.substring(10,15);
+		//substring:(start,end)
+		//belirtilen indexler arasındaki değerleri alır
+		document.write(result+"<br/>");
+
+        var result2 = cumle.substr(8,4);
+        //substr:(start,lenght)
+        //başlangıçta indexinden başlayarak belirtilen sayıda karakter alır.
+        document.write(result2+"<br/>");
+
+        var result3 =cumle.includes("is");
+        //beliritlen değeri içerip içermediğini söyler
+        document.write(result3+"<br/>");
+
+        var result4 = cumle.search("Kadir");
+        document.write(result4+"<br/>");
+
+        var result5 = cumle.search(/kadir/i);
+        //büyük küçük harf dikkat etmeden arama yapar
+        document.write(result5+"<br/>");
+
+        var result6 = cumle.repeat(10);
+        document.write(result6+"<br/>");
+
+        var result7 = cumle.replace("Kadir Çin", "Arda Sever");
+        document.write(result7+"<br/>");
+        //cümlede belli bir kısmı değiştirmeye yarar
+
+        var result8 = cumle.link("youtube.com");
+        document.write(result8"<br/>");
+
+
+        var result9 = cumle.startWith("M");
+        document.write(result9+"<br/>");
+
+        var result10 = cumle.endsWith("r");
+        document.write(result10+"<br/>");
+
+        var result11 = cumle.toUpperCase();
+        document.write(result11"<br/>");
+
+        var result8 = cumle.toLowerCase();
+        document.write(result8"<br/>");
+</script>
+</body>

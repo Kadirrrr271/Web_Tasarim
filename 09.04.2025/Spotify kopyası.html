@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width="1.0">
+<title>Spotify kopyası</title>
+<body>
+	<style>
+		body{
+		background-color: white;
+		}
+		h1{
+			color: green;
+			display: flex;
+		}
+			   div{
+	   	background-color: gray;
+	    padding-bottom: 25px;
+      	padding-left: 15px;
+      	padding-right: 10px;
+      	padding-top: 30px;
+      	margin: 20px 0;
+      	border-radius: 10px;
+      }
+		button{
+ 	    display: block;
+ 	    margin: 0 auto 30px auto;
+ 	    padding: 10px 20px;
+ 	    background: green;
+ 	    color: white;
+ 	    border: none;
+ 	    border-radius: 8px; 
+		}
+	   
+	   strong{
+	   	font-size: 20px;
+	   	font-color: white;
+	   }
+	   b{
+	     background-color: white;
+	    padding-bottom: 25px;
+      	padding-left: 15px;
+      	padding-right: 10px;
+      	padding-top: 30px;
+      	margin: 20px 0;
+      	border-radius: 10px;
+	   }
+	   audio{
+	   	width: 700px;
+	   }
+	</style>
+
+
+
+	<script >
+		    function darkMode(){
+			document.getElementByTagName("body")[0].style.color="blue";
+			document.getElementByTagName("body")[0].style.background-color="black";
+		}
+	</script>
+
+
+
+	    <h1 style="justify-content: center; display: flex">Lise Mood Offline Spotify</h1>
+	    <button type="button" onclick="darkMode()">Tema Değiştir</button>
+	   <select class="tema-butonu" onchange="temayıDegistir(this.value")>
+	   	<option value="default">Tema Seçin</option>
+	   	<option value="light">Gündüz Modu</option>
+	   	<option value="dark">Gece Modu</option>
+	   	<option value="party">Partileme Modu</option>
+	   </select>
+
+
+ 
+   <div class = "kategori">
+	<h2><strong>Mutluyken Dinlenecek Şarkılar</strong></h2>
+<ul>
+	<li>
+		<strong>Teoman - O</strong>
+		<div class="acıklama">Ayrılık anında dinlenir</div>
+		<audio controls src ="bos-gemile.mp3"></audio>
+	</li>
+<li>
+			<strong>Yüz yüzeyken konuşuruz - Boş Gemiler</strong>
+			<div class="acıklama">İçsel boşluk ve huzursızluk anında dinlenir</div>
+			<audio controls src ="bos-gemile.mp3"></audio>
+		</li>
+	<li>
+		<strong>Adele - Semeone Like You</strong>
+		<div class="acıklama">Unutamıyorsan bu şarkı senin için yazılmış</div>
+		<audio controls src ="bos-gemile.mp3"></audio>
+	</li>
+  </ul>
+</div>
+
+<div class = "kategori">
+	<h2><strong>Depresyona Girdim Gireceğim Dinlenecekler</strong></h2>
+<ul>
+	<li>
+		<strong>Mor ve Ötesi - Cambaz</strong>
+		<div class="acıklama">Karanlık modlar için ideal şarkı</div>
+		<audio controls src ="bos-gemile.mp3"></audio>
+	</li>
+<li>
+			<strong>Billie Elish -  love</strong>
+			<div class="acıklama">İçsel boşluk ve huzursızluk anında dinlenir</div>
+			<audio controls src ="bos-gemile.mp3"></audio>
+		</li>
+	<li>
+		<strong>Adele - Semeone Like You</strong>
+		<div class="acıklama">Unutamıyorsan bu şarkı senin için yazılmış</div>
+		<audio controls src ="bos-gemile.mp3"></audio>
+	</li>
+  </ul>
+</div>
+
+<div class = "kategori">
+	<h2><strong>Depresyona Girdim Gireceğim Dinlenecekler</strong></h2>
+<ul>
+	<li>
+		<strong>Mor ve Ötesi - Cambaz</strong>
+		<div class="acıklama">Karanlık modlar için ideal şarkı</div>
+		<audio controls src ="bos-gemile.mp3"></audio>
+	</li>
+<li>
+			<strong>Billie Elish -  love</strong>
+			<div class="acıklama">İçsel boşluk ve huzursızluk anında dinlenir</div>
+			<audio controls src ="bos-gemile.mp3"></audio>
+		</li>
+	<li>
+		<strong>Adele - Semeone Like You</strong>
+		<div class="acıklama">Unutamıyorsan bu şarkı senin için yazılmış</div>
+		<audio controls src ="bos-gemile.mp3"></audio>
+	</li>
+  </ul>
+</div>
+
+</body>

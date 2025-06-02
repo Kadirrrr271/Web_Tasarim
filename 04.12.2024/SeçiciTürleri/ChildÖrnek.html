@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width="1.0">
+<title>Child örnek</title>
+<style>
+		.parent .child{
+			background-color: lightblue;
+			padding: 10px;
+	}
+	.parent .child .grandchild{
+		background-color: lightgreen;
+		padding: 20px;
+	}
+	.parent p{
+		font-family: Arial, sans-serif;
+	}
+</style>
+<body>
+	<div class="parent">
+		<p>Bu, parent'in doğrudan çocuğu</p>
+		<div class="child">
+			<p>Bu, child'ın çocuğu, yani parent'in torunu.</p>
+		<div class="grandchild">
+			<p>Bu grandchild'in çocuğu, yani parent'in torunu</p>
+		</div>
+	</div>
+</div>
+
+</body>
+</head>
+</html>

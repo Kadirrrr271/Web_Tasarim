@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content?"width-device-width="1.0">
+<title>Evrensel Seçici</title>
+<style>
+	*{
+		color: violet;
+	}
+</style>
+</head>
+<body>
+	<h3>Web Tabanlý Uygulama Geliþtirme</h3>
+	<p>Evin Dag</p>
+	<li>CSS</li>
+	<li>HTML</li>
+	<li>PHP</li>
+	<li>ASP</li>
+    <li>Python<li>
+    <li>JavaScript</li>
+</body>

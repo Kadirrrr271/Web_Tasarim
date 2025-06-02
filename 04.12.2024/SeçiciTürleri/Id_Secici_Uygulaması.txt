@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width="1.0">
+<title>Id Secici Uygulamasý</title>
+<style>
+	#birincikita{
+		color: red;
+	}
+	#ikincikita{
+		color: blue;
+	}
+	#üçüncükita{
+		color: orange;
+	}
+</style>
+</head>
+<body>
+<pre id="birincikita">
+Korkma! Sönmez bu þafaklarda yüzen al sancak,
+Sönmeden yurdumun üstünde tüten en son ocak.
+O benim milletimin yýldýzýdýr, parlayacak;
+O benimdir, o benim milletimindir ancak.</pre>
+
+<pre id="ikincikita">
+Çatma, kurban olayým, çehreni ey nazlý hilal!
+Kahraman ýrkýma bir gül; ne bu þiddet, bu celal?
+Sana olmaz dökülen kanlarýmýz sonra helal...
+Hakkýdýr, Hakk'a tapan milletimin istiklâl.</pre>
+
+<pre id="üçüncükita">
+Ben ezelden beridir hür yaþadým, hür yaþarým,
+Hangi çýlgýn bana zincir vuracakmýþ? Þaþarým.
+Kükremiþ sel gibiyim, bendimi çiðner, aþarým,
+Yýrtarým daðlarý, enginlere sýðmam, taþarým</pre>
+
+</body>
+</html>

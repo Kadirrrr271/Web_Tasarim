@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width="1.0">
+<title>Position örnek</title>
+<style>
+	body{
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	.static-box{
+		position: static;
+		background: lightblue;
+		padding: 20px;
+		border: 1px solid blue;
+		margin: 10px;
+	}
+	.relative-box{
+		position: relative;
+		background: lightgreen;
+		padding: 20px;
+		border: 1px solid green;
+		margin: 10px;
+		top: 20px;
+		left: 20px;
+	}
+	.absolute-container{
+		position: relative;
+		background: lightgray;
+		padding: 20px;
+		border: 1px solid gray;
+		margin: 10px;		
+	}
+   .absolute-box{
+	   	position: absolute;
+		background: yellow;
+		padding: 10px;
+		border: 1px solid orange;
+		top: 10px;
+		left: 10px;
+	}
+   .fixed-box{
+	    position: fixed;
+	  	background: lightcoral;
+	    color: white;
+	    padding: 10px;
+	    border: 1px solid red;
+        top: 0;
+        right: 0;
+        z-index: 1000; /* üste görünmesini saðlar */
+	}
+	.sticky-box{
+	    position: sticky;
+	    background: lightpink;
+	    padding: 20px;
+	    border: 1px solid hotpink;
+	    top: 10px;
+	    margin: 10px;
+    }
+    .long-content{
+        height: 1000px;
+    }
+</style>
+</head>
+<body>
+	<div class="static-box">
+		Bu bir <strong>static</strong> elemandýr. Doðal akýþýna göre konumlanýr.
+	</div>
+	<div class="relative-box">
+		Bu bir <strong>relative</strong>elemandýr. Doðal konumundan 20px aþaðý ve saða taþýnmýþtýr
+	</div>
+	<div class="absolute-container">
+		Bu bir<strong>relative</strong>kapsayýcýdýr.
+		<div class="absolute-box">
+			Bu bir <strong>absolute</strong> elemandýr. kapsayýcýya göre konumlanmýþtýr.
+		</div>
+	</div>
+		<div class="fixed-box">
+			Bu bir <strong>fixed</strong>elemandýr. Sayfayý kaydýrýrken hep burda kalýr.
+	</div>
+	<div class="sticky-box">
+		Bu bir <strong>sticky</strong>elamanýdýr. Kaydýrýldýðýnda 10px yukarýda sabitlenir.
+	</div>
+	<div class="long-content"></div>
+</body>
+</html>

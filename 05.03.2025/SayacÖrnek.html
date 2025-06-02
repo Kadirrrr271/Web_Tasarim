@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sayaç Örneği</title>
+	<script>
+		function arttir(){
+			document.getElementById("sayac").innerText++;
+		}
+		function azalt(){
+			let sayac = document.getElementById("sayac").innerHTML--;
+            if(sayac >= 1) {
+            	document.getElementById("sayac").innerText = sayac - 1;
+            }
+			else
+				alert("Sayı 0 altına düşemez");
+
+		}
+
+	</script>
+</head>
+<body>
+	<div style="background-color: lightskyblue; padding: 10px;">
+		<input type="button" onclick="arttir()" value="Sayıyı Artır">
+		<h1 id="sayac">0</h1>
+		<input type="button" onclick="azalt()" value="Sayıyı Azalt">
+
+	</div>
+</body>
+</html>

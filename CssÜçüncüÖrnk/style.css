@@ -1,0 +1,16 @@
+pre{
+    text-align:center;
+    line-height: 20px;
+    text-transform:uppercase;
+    text-decoration:underline;
+    word-spacing: normal;
+    letter-spacing: normal;
+    font-weight: bold;
+    color:darkred;
+    font-style:italic;
+    background-color: rgb(177, 218, 228);
+    background-image: url(bayrak.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 0.5px 1px; /*Atam sen kalkta ben yatam*/

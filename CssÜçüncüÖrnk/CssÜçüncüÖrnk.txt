@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Atilla Ýlhan Þiiri</h1>
+	<p><pre>Korkma! Sönmez bu þafaklarda yüzen al sancak,
+Sönmeden yurdumun üstünde tüten en son ocak.
+O benim milletimin yýldýzýdýr, parlayacak;
+O benimdir, o benim milletimindir ancak.
+
+
+Çatma, kurban olayým, çehreni ey nazlý hilal!
+Kahraman ýrkýma bir gül; ne bu þiddet, bu celal?
+Sana olmaz dökülen kanlarýmýz sonra helal…
+Hakkýdýr, Hakk’a tapan milletimin istiklal.
+
+
+Ben ezelden beridir hür yaþadým, hür yaþarým,
+Hangi çýlgýn bana zincir vuracakmýþ? Þaþarým.
+Kükremiþ sel gibiyim, bendimi çiðner, aþarým,
+Yýrtarým daðlarý, enginlere sýðmam, taþarým.
+
+
+Garbýn afakýný sarmýþsa çelik zýrhlý duvar,
+Benim iman dolu göðsüm gibi serhaddim var.
+Ulusun, korkma! Nasýl böyle bir imaný boðar,
+“Medeniyet” dediðin tek diþi kalmýþ canavar?
+
+
+Arkadaþ! Yurduma alçaklarý uðratma sakýn,
+Siper et gövdeni, dursun bu hayâsýzca akýn.
+Doðacaktýr sana vadettiði günler Hakk’ýn,
+Kim bilir, belki yarýn belki yarýndan da yakýn.
+
+
+Bastýðýn yerleri “toprak” diyerek geçme, taný,
+Düþün altýndaki binlerce kefensiz yataný.
+Sen þehit oðlusun, incitme, yazýktýr ataný,
+Verme, dünyalarý alsan da bu cennet vataný.
+
+
+Kim bu cennet vatanýn uðruna olmaz ki feda?
+Þüheda fýþkýracak, topraðý sýksan þüheda.
+Caný, cananý, bütün varýmý alsýn da Hüda,
+Etmesin tek vatanýmdan beni dünyada cüda.
+
+
+Ruhumun senden Ýlahî, þudur ancak emeli:
+Deðmesin mabedimin göðsüne namahrem eli.
+Bu ezanlar, ki þehadetleri dinin temeli,
+Ebedî, yurdumun üstünde benim inlemeli.
+
+
+O zaman vecd ile bin secde eder, varsa taþým,
+Her cerihamdan, Ýlahî, boþanýp kanlý yaþým,
+Fýþkýrýr ruhumücerret gibi yerden naaþým,
+O zaman yükselerek arþa deðer belki baþým.
+
+
+Dalgalan sen de þafaklar gibi ey þanlý hilal!
+Olsun artýk dökülen kanlarýmýn hepsi helal.
+Ebediyen sana yok, ýrkýma yok izmihlal.
+Hakkýdýr, hür yaþamýþ bayraðýmýn hürriyet;
+Hakkýdýr, Hakk’a tapan milletimin istiklal.</pre></p>
+</body>
+</html>
